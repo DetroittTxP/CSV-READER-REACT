@@ -18,9 +18,26 @@ ChartJS.register(
     Legend
   );
 
-  export const Chart1 = ()=>{
+  export const Chart1 = ({total,datasource})=>{
+
+
+        const data = {
+             labels:['new_case','total_case','new_case_excludeabroad','total_case_excludeabroad','new_death','total_death'],
+             datasets:[
+                {
+                    label:'TOTALCASE',
+                    data:total,
+                    backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                }
+             ]
+        }
+
+
+
         return(
-            <div>testchart</div>
+            <div className='Table'>
+                <Bar data={data}/>
+            </div>
         )
   }
 

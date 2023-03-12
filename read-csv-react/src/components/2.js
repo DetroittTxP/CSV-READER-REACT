@@ -48,7 +48,7 @@ export const  Csv2=()=>{
         <div>
             <h3>รายงานสถานการณ์ COVID-19 ประจำสัปดาห์ แยกตามรายจังหวัด</h3>
             
-            <Chart1/>
+            <Chart1 total = {total} datasource = {data}/>
 
             <br/>
             <br/>
