@@ -16,6 +16,7 @@ function App() {
                        <NavDropdown title='CSV'>
                            <NavDropdown.Item href='/1'>1.รายงานสถานการณ์ COVID-19 ประจำสัปดาห์</NavDropdown.Item>
                            <NavDropdown.Item href='/2'>2.รายงานสถานการณ์ COVID-19 ประจำสัปดาห์ แยกตามรายจังหวัด</NavDropdown.Item>
+                           <NavDropdown.Item href='/3'>3.รายงานสถานการณ์ COVID-19 ระลอก 4 ตั้งแต่ 01/01/2022 - ปัจจุบัน</NavDropdown.Item>
                        </NavDropdown>
                   </Nav>
               </Container>
